@@ -1,7 +1,7 @@
 document.getElementById("search-input")
     .addEventListener("keyup", function (event) {
         // event.preventDefault();
-        if (event.keyCode === 13) {
+        if (event.key === "Enter") {
             document.getElementById("button-addon2").click();
         }
     });
