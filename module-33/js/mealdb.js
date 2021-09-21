@@ -1,3 +1,14 @@
+document.getElementById("search-input")
+    .addEventListener("keyup", function (event) {
+        // event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("button-addon2").click();
+        }
+    });
+
+
+
+
 const search = () => {
     const search = document.getElementById("search-input");
     const searchText = search.value;
